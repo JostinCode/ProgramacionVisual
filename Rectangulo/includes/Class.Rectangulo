@@ -1,0 +1,53 @@
+<?php
+
+Class CRectangulo{
+    //Las variables se declaran con el signo de dollar "$"
+    private $Largo; /* Atributos */
+    private $Ancho; /* Atributos */
+    
+    //Función constructora
+    function CRectangulo(){
+        $this->Largo = 0;
+        $this->Ancho = 0;
+    }
+    
+    public function get_Formulario(){ //Métodos POST - GET - PUT - DELETE
+        $html = '<form name="Transporte" action="" method="POST">
+                    <table aling="center" border="1">
+                        <tr>
+                            <td colspan="2"> RECTANGULO </td>
+                        </tr>
+                        <tr>
+                            <td>Largo</td>
+                            <td><input type="text" name="largo" Size=4></td>
+                        </tr>
+                        <tr>
+                            <td>Ancho</td>
+                            <td><input type="text" name="ancho" Size=4></td>
+                        </tr>
+                        <tr aling="center">
+                            <td aling="center" colspan="2"><center><imput type="submit" name="guardar" value="Resolver"></center></td>
+                        </tr>
+                    </table>
+                </form>';
+        return $html;
+        
+        /*
+         * Input type="text"
+         * Input type="number"
+         * Input type="email"
+         * Input type="password"
+         * Input type="submint"
+         */
+                
+    }
+    public function Area($Largo, $Ancho){
+        $Area = $Largo * $Ancho;
+        return $Area;
+    }
+    public function Perimetro($Largo, $Ancho){
+        $Perimetro = ($Largo*2) + ($Ancho*2);
+        return $Perimetro;
+    }
+    
+}
