@@ -26,7 +26,7 @@ Class CRectangulo{
                             <td><input type="text" name="ancho" Size=4></td>
                         </tr>
                         <tr aling="center">
-                            <td aling="center" colspan="2"><center><imput type="submit" name="guardar" value="Resolver"></center></td>
+                            <td aling="center" colspan="2"><center><input type="submit" name="guardar" value="Resolver"></center></td>
                         </tr>
                     </table>
                 </form>';
