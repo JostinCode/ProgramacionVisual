@@ -1,0 +1,56 @@
+<?php
+
+Class CTriangulo{
+    
+    private $Base;
+    private $Altura;
+    private $Lado1;
+    private $Lado2;
+    
+    function CTriangulo(){
+        $this->Base = 0;
+        $this->Altura = 0;
+        $this->Lado1 = 0;
+        $this->Lado = 0;
+    }
+    
+    public function get_Formulario(){
+        $html = '<form name="Transporte" action="" method="POST">
+                    <table aling="center" border="1">
+                        <tr>
+                            <td colspan="2"> TRIANGULO </td>
+                        </tr>
+                        <tr>
+                            <td>Base</td>
+                            <td><input type="text" name="base" Size=4></td>
+                        </tr>
+                        <tr>
+                            <td>Altura</td>
+                            <td><input type="text" name="altura" Size=4></td>
+                        </tr>
+                        <tr>
+                            <td>Lado 1</td>
+                            <td><input type="text" name="LadoUno" Size=4></td>
+                        </tr>
+                        <tr>
+                            <td>Lado 2</td>
+                            <td><input type="text" name="LadoDos" Size=4></td>
+                        </tr>
+                        <tr aling="center">
+                            <td aling="center" colspan="2"><center><input type="submit" name="guardar" value="Resolver"></center></td>
+                        </tr>
+                    </table>
+                </form>';
+        return $html;
+    }
+    
+    public function Area($Base, $Altura){
+        $Area = ($Base * $Altura) / 2;
+        return $Area;
+    }
+    public function Perimetro($Base, $Lado1, $Lado2){
+        $Perimetro = $Base + $Lado1 + $Lado2;
+        return $Perimetro;
+    }
+    
+}
