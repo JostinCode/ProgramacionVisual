@@ -41,6 +41,7 @@ Class CRectangulo{
          */
                 
     }
+    
     public function Area($Largo, $Ancho){
         $Area = $Largo * $Ancho;
         return $Area;
