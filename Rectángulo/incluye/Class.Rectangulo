@@ -1,5 +1,5 @@
 <?php
-
+// Hola
 Class CRectangulo{
     //Las variables se declaran con el signo de dollar "$"
     private $Largo; /* Atributos */
