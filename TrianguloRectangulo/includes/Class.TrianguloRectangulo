@@ -20,11 +20,11 @@ Class CTrianguloRectangulo{
                         </tr>
                         <tr>
                             <td>Base:</td>
-                            <td><input type="text" name="base" Size=15></td>
+                            <td><input type="text" name="base" Size=17></td>
                         </tr>
                         <tr>
                             <td>Altura:</td>
-                            <td><input type="text" name="altura" Size=15></td>
+                            <td><input type="text" name="altura" Size=17></td>
                         </tr>
                         <tr aling="center">
                             <td aling="center" colspan="2"><center><input type="submit" name="guardar" value="Resolver"></center></td>
