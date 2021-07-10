@@ -2,14 +2,14 @@
 
 Class CTrianguloRectangulo{
     
-    private $Base;
-    private $Altura; //Altura = Lado1
-    private $Lado; //Lado2
+    private $Base; //Lado1(Primer cateto)
+    private $Altura; //Lado2(Segundo cateto)
+    private $Hipotenusa; //Lado3
     
     function CTrianguloRectangulo(){
         $this->Base = 0;
         $this->Altura = 0;
-        $this->Lado = 0;
+        $this->Hipotenusa = 0.0;
     }
     
     public function get_Formulario(){
@@ -27,8 +27,8 @@ Class CTrianguloRectangulo{
                             <td><input type="text" name="altura" Size=10></td>
                         </tr>
                         <tr>
-                            <td>Segundo lado:</td>
-                            <td><input type="text" name="lado" Size=10></td>
+                            <td>Hipotenusa:</td>
+                            <td><input type="text" name="hipotenusa" Size=10></td>
                         </tr>
                         <tr aling="center">
                             <td aling="center" colspan="2"><center><input type="submit" name="guardar" value="Resolver"></center></td>
@@ -42,8 +42,9 @@ Class CTrianguloRectangulo{
         $Area = ($Base * $Altura) / 2;
         return $Area;
     }
-    public function Perimetro($Base, $Altura, $Lado){
-        $Perimetro = $Base + $Altura + $Lado;
+    public function Perimetro($Base, $Altura, $Hipotenusa){
+        $Hipotenusa = $Base^2 + $Altura^2;
+        $Perimetro = $Base + $Altura + $Hipotenusa;
         return $Perimetro;
     }
     
