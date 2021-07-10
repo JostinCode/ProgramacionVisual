@@ -16,19 +16,19 @@ Class CTrianguloRectangulo{
         $html = '<form name="Transporte" action="" method="POST">
                     <table aling="center" border="1">
                         <tr>
-                            <td colspan="2"> TRIÁNGULO RECTÁNGULO </td>
+                            <td colspan="2"> TRIANGULO RECTANGULO </td>
                         </tr>
                         <tr>
-                            <td>Base</td>
-                            <td><input type="text" name="base" Size=4></td>
+                            <td>Base:</td>
+                            <td><input type="text" name="base" Size=10></td>
                         </tr>
                         <tr>
-                            <td>Altura</td>
-                            <td><input type="text" name="altura" Size=4></td>
+                            <td>Altura:</td>
+                            <td><input type="text" name="altura" Size=10></td>
                         </tr>
                         <tr>
-                            <td>Segundo Lado</td>
-                            <td><input type="text" name="lado" Size=4></td>
+                            <td>Segundo lado:</td>
+                            <td><input type="text" name="lado" Size=10></td>
                         </tr>
                         <tr aling="center">
                             <td aling="center" colspan="2"><center><input type="submit" name="guardar" value="Resolver"></center></td>
