@@ -20,15 +20,11 @@ Class CTrianguloRectangulo{
                         </tr>
                         <tr>
                             <td>Base:</td>
-                            <td><input type="text" name="base" Size=12></td>
+                            <td><input type="text" name="base" Size=15></td>
                         </tr>
                         <tr>
                             <td>Altura:</td>
-                            <td><input type="text" name="altura" Size=12></td>
-                        </tr>
-                        <tr>
-                            <td>Hipotenusa:</td>
-                            <td><input type="text" name="hipotenusa" Size=12></td>
+                            <td><input type="text" name="altura" Size=15></td>
                         </tr>
                         <tr aling="center">
                             <td aling="center" colspan="2"><center><input type="submit" name="guardar" value="Resolver"></center></td>
@@ -42,7 +38,8 @@ Class CTrianguloRectangulo{
         $Area = ($Base * $Altura) / 2;
         return $Area;
     }
-    public function Perimetro($Base, $Altura, $Hipotenusa){
+    public function Perimetro($Base, $Altura){
+        $Hipotenusa = sqrt(pow($Base, 2) + pow($Altura, 2));
         $Perimetro = $Base + $Altura + $Hipotenusa;
         return $Perimetro;
     }
