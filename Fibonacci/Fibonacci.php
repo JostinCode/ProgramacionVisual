@@ -1,6 +1,6 @@
 <?php
 
-echo "<h1>Los numeros de Fibonacci</h1>";
+echo "<h1>Los números de Fibonacci</h1>";
 
 function fibonacci($numero) {
     $numeros = [0, 1];
