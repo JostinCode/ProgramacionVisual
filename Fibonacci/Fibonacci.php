@@ -1,5 +1,7 @@
 <?php
 
+//Explorar sobre los números de Fibonacci
+
 echo "<h1>Los números de Fibonacci</h1>";
 
 function fibonacci($numero) {
