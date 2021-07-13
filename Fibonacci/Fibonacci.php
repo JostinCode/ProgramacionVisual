@@ -19,3 +19,5 @@ function fibonacci($numero) {
 
 $resultado = fibonacci(10);
 echo join(" , ", $resultado);
+
+//
