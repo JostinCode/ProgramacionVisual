@@ -10,11 +10,11 @@ echo "<h1>Sucesión de los números de Fibonacci</h1>";
 
 //Forma de la web:
 function fibonacci($numero) {
-    $numeros = [0, 1];
+    $fibonacci = [0, 1];
     for ($i = 2; $i < $numero; $i++) {
-        $numeros[$i] = $numeros[$i - 2] + $numeros[$i - 1];
+        $fibonacci[$i] = $fibonacci[$i - 2] + $fibonacci[$i - 1];
     }
-    return $numeros;
+    return $fibonacci;
 }
 
 $resultado = fibonacci(10);
