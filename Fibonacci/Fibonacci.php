@@ -7,8 +7,9 @@
 //Codificación para presentar la sucesión de números:
 
 echo "<h1>Sucesión de los números de Fibonacci</h1>";
+echo "<h2> Esta es una forma: </h2>";
 
-//Forma de la web:
+//Forma de la web #1:
 function fibonacci($numero) {
     $fibonacci = [0, 1];
     for ($i = 2; $i < $numero; $i++) {
@@ -20,4 +21,12 @@ function fibonacci($numero) {
 $resultado = fibonacci(10);
 echo join(" , ", $resultado);
 
-//
+//Forma de la web #2:
+echo "<h2> Esta es otra forma: </h2>";
+$fibonacci2 = array(0, 1);
+
+for ($i = 2; $i <= 10; $i++) {
+    echo "El número con el que inicia: ".$i."<br>";
+    $fibonacci2[$i] = $fibonacci2[$i - 1] + $fibonacci2[$i - 2];
+    echo $fibonacci2[$i]."<br>";
+}
