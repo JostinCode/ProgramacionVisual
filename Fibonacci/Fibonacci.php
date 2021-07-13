@@ -17,5 +17,5 @@ function fibonacci($numero) {
     return $numeros;
 }
 
-$resultado = fibonacci(20);
+$resultado = fibonacci(10);
 echo join(" , ", $resultado);
