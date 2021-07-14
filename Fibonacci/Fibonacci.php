@@ -2,7 +2,8 @@
 
 //Tarea: Explorar sobre los números de Fibonacci
 /* Los números de Fibonacci (Leonardo de Pisa) son una serie infinita de números naturales,
- * donde el número que biene es la suma de los dos anteriores, excepto el 0 y el 1.
+ * donde el número que biene es la suma de los dos anteriores, excepto el 0 y el 1,
+ * es decir qué se empesará a sumar partiendo desde el cero y el uno dando como resultado 1.
  * Por ejemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55... */
 //Codificación para presentar la sucesión de números:
 
