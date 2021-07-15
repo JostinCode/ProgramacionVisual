@@ -4,7 +4,6 @@
 //Utilizaré el ciclo FOR
 
 echo "<h1> Números impares del 1 hasta el 60 </h1>";
-echo "<br>";
 
 //Forma #1:
 for ($NumeroImpar=0; $NumeroImpar<=60; $NumeroImpar++) {
