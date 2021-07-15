@@ -2,8 +2,8 @@
 
 //Tarea: Explorar sobre los números de Fibonacci
 /* Los números de Fibonacci (Leonardo de Pisa) son una serie infinita de números naturales,
- * donde el número que biene es la suma de los dos anteriores, excepto el 0 y el 1,
- * es decir qué se empesará a sumar partiendo desde el cero y el uno dando como resultado 1.
+ * donde el número que viene es la suma de los dos anteriores, excepto el 0 y el 1,
+ * es decir qué se empezará a sumar partiendo desde el cero y el uno dando como resultado 1.
  * Por ejemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55... */
 //Codificación para presentar la sucesión de números:
 
@@ -52,7 +52,7 @@ for ($incrementable = 0; $incrementable <= 10; $incrementable++) {
 }
 
 
-/* 1. En la primera forma hacen uso de una función el cual recibe una parámetro
+/* 1. En la primera forma hacen uso de una función el cual recibe un parámetro
  * que es la cantidad de veces que aparecerán los números que corresponden a la serie,
  * además dentro de esta función estará contenido el ciclo FOR que sumará los números mediante vectores:
  * Fibonacci[n] = Fibonacci[1] + Fibonacci[2];
@@ -63,8 +63,8 @@ for ($incrementable = 0; $incrementable <= 10; $incrementable++) {
  * la única diferencias son al momento de imprimir los números.
  * 
  * 3. Y por último el tercero, el cual es una forma más básica y no tan compleja de hacer este proceso
- * de presentación de la suceción de Fibonacci. Sólo igualámos dos primeros números, uno a 0 y el otro a 1,
- * luego con ayuda de otra varible, la usaremos para almacenar el resultado de la suma que se realizará dentro del ciclo FOR.
+ * de presentación de la sucesión de Fibonacci. Sólo igualamos dos primeros números, uno a 0 y el otro a 1,
+ * luego con ayuda de otra variable, la usaremos para almacenar el resultado de la suma que se realizará dentro del ciclo FOR.
  * Por último almacenamos el valor de la segunda variable en la primera y el resultado de la suma en la segunda variable
  * para posterior imprimir el resultado de cada suma.
  * Y así el ciclo se repetirá tantas veces queramos dependiendo siempre del valor final que le asignemos al incrementable.
