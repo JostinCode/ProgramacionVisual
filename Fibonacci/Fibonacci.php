@@ -60,7 +60,7 @@ for ($incrementable = 0; $incrementable <= 10; $incrementable++) {
  * Al final se imprime el resultado que se obtiene de la función, separado por una coma.
  * 
  * 2. En el segundo se hace uso de igual forma de vectores y la suma es similar,
- * la única diferencias son al momento de imprimir los números.
+ * la única diferencia es al momento de imprimir los números.
  * 
  * 3. Y por último el tercero, el cual es una forma más básica y no tan compleja de hacer este proceso
  * de presentación de la sucesión de Fibonacci. Sólo igualamos dos primeros números, uno a 0 y el otro a 1,
