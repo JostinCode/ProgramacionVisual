@@ -83,32 +83,34 @@ echo '- La función SORT ordena los elementos de una array. <strong>Ejemplo:</st
 echo "<h2> Función array_unique: </h2>";
 echo '- Elimina valores duplicados en un array (siempre y cuando los elementos tengan las mismas dimensiones o la misma cantidad de caracteres). <strong>Ejemplo:</strong> <br>';
 
-//Función #11: boolval
-echo "<h2> Función boolval: </h2>";
-echo '- . <strong>Ejemplo:</strong> <br>';
+//Función #11: exp
+echo "<h2> Función exp: </h2>";
+echo '- Calcula es exponencial de Euler (e = 2,7182...). <strong>Ejemplo:</strong> <br>';
 
-//Función #12: boolval
-echo "<h2> Función boolval: </h2>";
-echo '- . <strong>Ejemplo:</strong> <br>';
+//Función #12: round
+echo "<h2> Función round: </h2>";
+echo '- Redondea un número con coma flotante (float), la función lo hará por defecto aprozimandose al valor más sercano o'
+.' dependiendo del modo que se especifique, ya sea acercandose hacia la derecha o hacia la izquierda cuando el valor está a medio camino. <strong>Ejemplo:</strong> <br>';
 
-//Función #13: boolval
-echo "<h2> Función boolval: </h2>";
-echo '- . <strong>Ejemplo:</strong> <br>';
+//Función #13: ftp_mkdir y ftp_rmdir
+echo "<h2> Función ftp_mkdir y ftp_rmdir: </h2>";
+echo '- La primera de las dos funciones sirve para crear un directorio en el servidor FTP, y la segunda elimina el directorio ya creado. <strong>Ejemplo:</strong> <br>';
 
-//Función #14: boolval
-echo "<h2> Función boolval: </h2>";
-echo '- . <strong>Ejemplo:</strong> <br>';
+//Función #14: mysqli_connect y mysqli_close
+echo "<h2> Función mysqli_connect y mysqli_close: </h2>";
+echo '- mysqli_connect sirve para realizar una conexión al servidor de MySQL,'
+.' por otra parte la función mysqli_close cierra la conexión que se había realizado anteriormente. <strong>Ejemplo:</strong> <br>';
 
-//Función #15: boolval
-echo "<h2> Función boolval: </h2>";
-echo '- . <strong>Ejemplo:</strong> <br>';
+//Función #15: gethostname
+echo "<h2> Función gethostname: </h2>";
+echo '- Obtiene el nombre del host estándar para el equipo local, (devolviendo siempre un string). <strong>Ejemplo:</strong> <br>';
 
-//Función #16: boolval
-echo "<h2> Función boolval: </h2>";
-echo '- . <strong>Ejemplo:</strong> <br>';
+//Función #16: getimagesize
+echo "<h2> Función getimagesize: </h2>";
+echo '- Nos permite saber el tamaño de una imagen (devolviendo las dimensiones y el tipo de la imagen). <strong>Ejemplo:</strong> <br>';
 
-//Función #17: boolval
-echo "<h2> Función boolval: </h2>";
+//Función #17: exif_imagetype
+echo "<h2> Función exif_imagetype: </h2>";
 echo '- . <strong>Ejemplo:</strong> <br>';
 
 //Función #18: boolval
