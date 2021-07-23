@@ -59,3 +59,66 @@ echo 'El valor de [] es:                          '.'<strong>'.(boolval([]) ? 't
 echo 'El valor de stdClass es:                    '.'<strong>'.(boolval(new stdClass) ? 'true' : 'false')."</strong> <br>";
 echo 'El valor de la varibale $ValorBooleano1 es: '.'<strong>'.boolval($ValorBooleano1)."</strong> <br>";
 echo 'El valor de la varibale $ValorBooleano2 es: '.'<strong>'.boolval($ValorBooleano2)."</strong> <br>";
+
+//Función #6: count
+echo "<h2> Función count: </h2>";
+echo '- Permite contar todos los elementos de un arreglo o de un objeto. <strong>Ejemplo:</strong> <br>';
+
+
+//Función #7: date_default_timezone_get
+echo "<h2> Función date_default_timezone_get: </h2>";
+echo '- Obtiene la zona horaria predeterminada, ( la establecida por defecto). <strong>Ejemplo:</strong> <br>';
+
+//Función #8: max y min
+echo "<h2> Función max y min: </h2>";
+echo '- La función MAX() permite encontrar el valor más grande dentro de un arreglo o una serie de elementos, y la función MIN() el valor más pequeño.'
+.' La función realiza esta comparación de valores de izquierda a derecha (en caso de haber dos elementos igual escogerá el primero)'
+        .' y considerando siempre a los array como superiores<strong>Ejemplo:</strong> <br>';
+
+//Función #9: sort
+echo "<h2> Función sort: </h2>";
+echo '- La función SORT ordena los elementos de una array. <strong>Ejemplo:</strong> <br>';
+
+//Función #10: array_unique
+echo "<h2> Función array_unique: </h2>";
+echo '- Elimina valores duplicados en un array (siempre y cuando los elementos tengan las mismas dimensiones o la misma cantidad de caracteres). <strong>Ejemplo:</strong> <br>';
+
+//Función #11: boolval
+echo "<h2> Función boolval: </h2>";
+echo '- . <strong>Ejemplo:</strong> <br>';
+
+//Función #12: boolval
+echo "<h2> Función boolval: </h2>";
+echo '- . <strong>Ejemplo:</strong> <br>';
+
+//Función #13: boolval
+echo "<h2> Función boolval: </h2>";
+echo '- . <strong>Ejemplo:</strong> <br>';
+
+//Función #14: boolval
+echo "<h2> Función boolval: </h2>";
+echo '- . <strong>Ejemplo:</strong> <br>';
+
+//Función #15: boolval
+echo "<h2> Función boolval: </h2>";
+echo '- . <strong>Ejemplo:</strong> <br>';
+
+//Función #16: boolval
+echo "<h2> Función boolval: </h2>";
+echo '- . <strong>Ejemplo:</strong> <br>';
+
+//Función #17: boolval
+echo "<h2> Función boolval: </h2>";
+echo '- . <strong>Ejemplo:</strong> <br>';
+
+//Función #18: boolval
+echo "<h2> Función boolval: </h2>";
+echo '- . <strong>Ejemplo:</strong> <br>';
+
+//Función #19: boolval
+echo "<h2> Función boolval: </h2>";
+echo '- . <strong>Ejemplo:</strong> <br>';
+
+//Función #20: boolval
+echo "<h2> Función boolval: </h2>";
+echo '- . <strong>Ejemplo:</strong> <br>';
