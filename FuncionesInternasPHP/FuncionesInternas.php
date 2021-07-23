@@ -72,8 +72,8 @@ echo '- Obtiene la zona horaria predeterminada, ( la establecida por defecto). <
 //Función #8: max y min
 echo "<h2> Función max y min: </h2>";
 echo '- La función MAX() permite encontrar el valor más grande dentro de un arreglo o una serie de elementos, y la función MIN() el valor más pequeño.'
-.' La función realiza esta comparación de valores de izquierda a derecha (en caso de haber dos elementos igual escogerá el primero)'
-        .' y considerando siempre a los array como superiores<strong>Ejemplo:</strong> <br>';
+.' La función realiza esta comparación de valores de izquierda a derecha (en caso de haber dos elementos iguales escogerá el primero)'
+        .' y considerando siempre a los array como superiores. <strong>Ejemplo:</strong> <br>';
 
 //Función #9: sort
 echo "<h2> Función sort: </h2>";
@@ -98,7 +98,7 @@ echo '- La primera de las dos funciones sirve para crear un directorio en el ser
 
 //Función #14: mysqli_connect y mysqli_close
 echo "<h2> Función mysqli_connect y mysqli_close: </h2>";
-echo '- mysqli_connect sirve para realizar una conexión al servidor de MySQL,'
+echo '- Mysqli_connect sirve para realizar una conexión al servidor de MySQL,'
 .' por otra parte la función mysqli_close cierra la conexión que se había realizado anteriormente. <strong>Ejemplo:</strong> <br>';
 
 //Función #15: gethostname
