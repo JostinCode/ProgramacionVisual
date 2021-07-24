@@ -63,17 +63,32 @@ echo 'El valor de la varibale $ValorBooleano2 es: '.'<strong>'.boolval($ValorBoo
 //Función #6: count
 echo "<h2> Función count: </h2>";
 echo '- Permite contar todos los elementos de un arreglo o de un objeto. <strong>Ejemplo:</strong> <br>';
-
+$Arreglo = array(2,'cadena', 3.56, 2*2);
+echo "El arreglo contiene los siguientes elementos: <br>";
+for ($incrementable=0; $incrementable<=3; $incrementable++) {
+    echo ($incrementable+1).".- <strong>".$Arreglo[$incrementable]."</strong> <br>";
+}
+echo "Por lo que la cantidad de elementos es: <strong>".count($Arreglo)."</strong>. <br>";
 
 //Función #7: date_default_timezone_get
 echo "<h2> Función date_default_timezone_get: </h2>";
 echo '- Obtiene la zona horaria predeterminada, ( la establecida por defecto). <strong>Ejemplo:</strong> <br>';
+echo "La <strong>zona horaria local</strong> que tengo por defecto es: <strong>".date_default_timezone_get()."</strong>. <br>";
 
 //Función #8: max y min
 echo "<h2> Función max y min: </h2>";
 echo '- La función MAX() permite encontrar el valor más grande dentro de un arreglo o una serie de elementos, y la función MIN() el valor más pequeño.'
 .' La función realiza esta comparación de valores de izquierda a derecha (en caso de haber dos elementos iguales escogerá el primero)'
         .' y considerando siempre a los array como superiores. <strong>Ejemplo:</strong> <br>';
+echo "<strong>Función max(): </strong> <br>";
+$ValorMaxMin = [2, 56, 2.4646, '', 0.1];
+echo "Los elementos del arreglo son: <br>";
+foreach ($ValorMaxMin as $valorMaMi) {
+    var_dump($valorMaMi);
+    echo "<br>";
+}
+echo "El valor máximo del arreglo es: <strong>".max($ValorMaxMin)."</strong> <br>";
+echo "El valor mínimo del arreglo es: <strong>".min($ValorMaxMin)."</strong> <br>";
 
 //Función #9: sort
 echo "<h2> Función sort: </h2>";
@@ -111,16 +126,16 @@ echo '- Nos permite saber el tamaño de una imagen (devolviendo las dimensiones 
 
 //Función #17: exif_imagetype
 echo "<h2> Función exif_imagetype: </h2>";
-echo '- . <strong>Ejemplo:</strong> <br>';
+echo '- Determina el tipo de una imagen, cuyos posibles valores devueltos pueden ser de tipo PNG, GIF, JPEG, etc. <strong>Ejemplo:</strong> <br>';
 
-//Función #18: boolval
-echo "<h2> Función boolval: </h2>";
-echo '- . <strong>Ejemplo:</strong> <br>';
+//Función #18: is_numeric
+echo "<h2> Función is_numeric: </h2>";
+echo '- Comprueba si una variable o valor es un número o un string numérico, (en otro caso el resultado devolverá falso). <strong>Ejemplo:</strong> <br>';
 
-//Función #19: boolval
-echo "<h2> Función boolval: </h2>";
-echo '- . <strong>Ejemplo:</strong> <br>';
+//Función #19: tan
+echo "<h2> Función tan: </h2>";
+echo '- Saca la tangente de un número. <strong>Ejemplo:</strong> <br>';
 
-//Función #20: boolval
-echo "<h2> Función boolval: </h2>";
-echo '- . <strong>Ejemplo:</strong> <br>';
+//Función #20: sqrt y pow
+echo "<h2> Función sqrt y pow: </h2>";
+echo '- La función sqrt permite obtener la raíz cuadrada de un número y la función pow permite realizar potencias. <strong>Ejemplo:</strong> <br>';
