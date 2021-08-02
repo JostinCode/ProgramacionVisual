@@ -4,7 +4,7 @@
  * Proyecto en clases
  * Realizar tres ejercicios en php, los mismo que tendrán lo siguiente:
 
- * - Realizar un Array que contengan los elemenos especificados en el documento de especificaciones.
+ * - Realizar un Array que contengan los elemenos especificados en el documento.
  * - Realizar una calculadora con las operaciones básicas (suma, resta, multiplicación y división).
  * - Crear una sesión que aumente o disminuya su valor en uno.
  */
