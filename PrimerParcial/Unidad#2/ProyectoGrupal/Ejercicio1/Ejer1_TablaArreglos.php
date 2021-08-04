@@ -48,13 +48,13 @@
 
 //Ejercicio #1:
 //$Tabla = array(
-//    $Accion = ['GTA', 'COD', 'PUGB'],
+//    $Acción = ['GTA', 'COD', 'PUGB'],
 //    $Aventura = ['ASSASINS', 'CRASH', 'Prince of Persia'],
 //    $Deporte = ['FIFA 19', 'PES 19', 'MOTO GP 19']
 //);
 
 $Tabla = array(
-    'Accion' => ['GTA', 'COD', 'PUGB'],
+    'Acción' => ['GTA', 'COD', 'PUGB'],
     'Aventura' => ['ASSASINS', 'CRASH', 'Prince of Persia'],
     'Deporte' => ['FIFA 19', 'PES 19', 'MOTO GP 19']
 );
@@ -115,5 +115,5 @@ function TablaHMTL() {
 
 echo "<br>";
 echo "<br>";
-//echo TablaHMTL();
+echo TablaHMTL();
 
