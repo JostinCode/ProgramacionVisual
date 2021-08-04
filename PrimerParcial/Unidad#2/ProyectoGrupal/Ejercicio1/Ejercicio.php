@@ -9,9 +9,7 @@
 
                 <?php
                 
-                include 'Ejer1_Categoria1';
-                $Categoria1 = new Categoria1();
-                $Categoria1->Categoria1();
+                include 'Ejer1_Categoria1.php';
                 
                 //    Variable     Llave 1       0      1       2
 //                $a['Videojuegos']['Acción'] = ['GTA', 'COD', 'PUGB'];
@@ -20,36 +18,36 @@
 //                //                 Llave 3          0          1           2
 //                $a['Videojuegos']['Deporte'] = ['FIFA 19', 'PES 19', 'MOTO GP 19'];
 
-                $Keys = array_keys($a['Videojuegos']);
-
-                $Table = '<table border="1">';
-                $Table .= '<tr>';
-                foreach ($Keys as $Valores) {
-                    $Table .= '<th>' . $Valores . '</th>';
-                }
-                $Table .= '</tr>';
-                
-                $Table .= '<tr>';
-                $Table .= '<td>' . $a['Videojuegos']['Acción'][0] . '</td>';
-                $Table .= '<td>' . $a['Videojuegos']['Aventura'][0] . '</td>';
-                $Table .= '<td>' . $a['Videojuegos']['Deporte'][0] . '</td>';
-                $Table .= '</tr>';
-                
-                $Table .= '<tr>';
-                $Table .= '<td>' . $a['Videojuegos']['Acción'][1] . '</td>';
-                $Table .= '<td>' . $a['Videojuegos']['Aventura'][1] . '</td>';
-                $Table .= '<td>' . $a['Videojuegos']['Deporte'][1] . '</td>';
-                $Table .= '</tr>';
-                
-                $Table .= '<tr>';
-                $Table .= '<td>' . $a['Videojuegos']['Acción'][2] . '</td>';
-                $Table .= '<td>' . $a['Videojuegos']['Aventura'][2] . '</td>';
-                $Table .= '<td>' . $a['Videojuegos']['Deporte'][2] . '</td>';
-                $Table .= '</tr>';
-
-                $Table .= '</table>';
-
-                echo $Table;
+//                $Keys = array_keys($a['Videojuegos']);
+//
+//                $Table = '<table border="1">';
+//                $Table .= '<tr>';
+//                foreach ($Keys as $Valores) {
+//                    $Table .= '<th>' . $Valores . '</th>';
+//                }
+//                $Table .= '</tr>';
+//                
+//                $Table .= '<tr>';
+//                $Table .= '<td>' . $a['Videojuegos']['Acción'][0] . '</td>';
+//                $Table .= '<td>' . $a['Videojuegos']['Aventura'][0] . '</td>';
+//                $Table .= '<td>' . $a['Videojuegos']['Deporte'][0] . '</td>';
+//                $Table .= '</tr>';
+//                
+//                $Table .= '<tr>';
+//                $Table .= '<td>' . $a['Videojuegos']['Acción'][1] . '</td>';
+//                $Table .= '<td>' . $a['Videojuegos']['Aventura'][1] . '</td>';
+//                $Table .= '<td>' . $a['Videojuegos']['Deporte'][1] . '</td>';
+//                $Table .= '</tr>';
+//                
+//                $Table .= '<tr>';
+//                $Table .= '<td>' . $a['Videojuegos']['Acción'][2] . '</td>';
+//                $Table .= '<td>' . $a['Videojuegos']['Aventura'][2] . '</td>';
+//                $Table .= '<td>' . $a['Videojuegos']['Deporte'][2] . '</td>';
+//                $Table .= '</tr>';
+//
+//                $Table .= '</table>';
+//
+//                echo $Table;
                 ?>
 
             </form>
