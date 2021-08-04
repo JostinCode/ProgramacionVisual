@@ -36,7 +36,6 @@
 
 
 <?php
-
 /*
  * Proyecto en clases
  * Realizar tres ejercicios en php, los mismo que tendrán lo siguiente:
@@ -60,7 +59,7 @@ $Tabla = array(
 );
 
 foreach ($Tabla as $Clave => $Valor) {
-    echo $Clave."<br>";
+    echo $Clave . "<br>";
 }
 
 echo "<br>";
@@ -69,47 +68,61 @@ echo "<br>";
 echo "<br>";
 
 $Categorias = array_keys($Tabla);
-var_dump ($Categorias);
+var_dump($Categorias);
 echo "<br>";
 echo "<br>";
 
 $Contenido = array_values($Tabla);
-var_dump ($Contenido);
+var_dump($Contenido);
 echo "<br>";
 echo "<br>";
 
-echo $Categorias[0].",&nbsp";
-echo $Categorias[1].",&nbsp";
+echo $Categorias[0] . ",&nbsp";
+echo $Categorias[1] . ",&nbsp";
 echo $Categorias[2];
+
+//function ImprimirC() {
+//    $Tabla = array(
+//        'Acción' => ['GTA', 'COD', 'PUGB'],
+//        'Aventura' => ['ASSASINS', 'CRASH', 'Prince of Persia'],
+//        'Deporte' => ['FIFA 19', 'PES 19', 'MOTO GP 19']
+//    );
+//
+//    foreach ($Tabla as $Clave) {
+//        echo $Clave;
+//    }
+//}
+//
+//ImprimirC();
 
 function TablaHMTL() {
     $html = '<form name="Envio" action="" method="POST">
-                <table aling="center" border="1">
-                    <tr align="center">
-                        <td colspan="4"> <strong>Videojuegos</strong> </td>
-                    </tr>
-                    <tr align="center">
-                        <td> <strong>Acción</strong> </td>
-                        <td> <strong>Aventura</strong> </td>
-                        <td> <strong>Deporte</strong> </td>
-                    </tr>
-                    <tr align="center">
-                        <td> GTA </td>
-                        <td> ASSASINS </td>
-                        <td> FIFA 19 </td>
-                    </tr>
-                    <tr align="center">
-                        <td> COD </td>
-                        <td> CRASH </td>
-                        <td> PES 19 </td>
-                    </tr>
-                    <tr align="center">
-                        <td> PUGB </td>
-                        <td> Prince of Persia </td>
-                        <td> MOTO GP 19 </td>
-                    </tr>
-                </table>
-            </form>';
+                    <table aling="center" border="1">
+                        <tr align="center">
+                            <td colspan="4"> <strong>Videojuegos</strong> </td>
+                        </tr>
+                        <tr align="center">
+                            <td> <strong>Acción</strong> </td>
+                            <td> <strong>Aventura</strong> </td>
+                            <td> <strong>Deporte</strong> </td>
+                        </tr>
+                        <tr align="center">
+                            <td> GTA </td>
+                            <td> ASSASINS </td>
+                            <td> FIFA 19 </td>
+                        </tr>
+                        <tr align="center">
+                            <td> COD </td>
+                            <td> CRASH </td>
+                            <td> PES 19 </td>
+                        </tr>
+                        <tr align="center">
+                            <td> PUGB </td>
+                            <td> Prince of Persia </td>
+                            <td> MOTO GP 19 </td>
+                        </tr>
+                    </table>
+                </form>';
     return $html;
 }
 
